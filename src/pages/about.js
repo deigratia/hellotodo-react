@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Topic from "../small/Topic";
+import "../index.css";
 
 const About = ({ match }) => {
   return(

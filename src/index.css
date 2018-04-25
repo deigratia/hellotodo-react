@@ -1,13 +1,14 @@
 .title{
-  color: rgb(109, 68, 224);
-  margin: 10px;
+  color: rgb(241, 19, 12);
+  margin: 5px;
 }
 
 .input{
-  border-color: rgb(109, 68, 224);
+  border-color: rgb(241, 19, 12);
   border-style: solid;
   margin-top: 10px;
   width: 15%;
+  height: 35px;
   margin: 10px;
 }
 
@@ -15,9 +16,9 @@
   margin: 10px;
   margin-top: 10px;
   border-style: solid;
-  border-color: rgb(109, 68, 224);
+  border-color: rgb(241, 19, 12);
   width: 15%;
-  height: 200px;
+  height: 300px;
 }
 
 .todo{

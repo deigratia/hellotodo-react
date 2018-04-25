@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import '../index.css';
 import Output from "../small/Output";
+import { Button } from 'reactstrap';
+
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      txt: "This is App",
       todos:[],
       input:""
     };
@@ -48,19 +49,18 @@ class App extends Component {
     //let txt=this.props.txt
     return (
       <div>
-        <div className ="container">
-          <h1 className="title">{this.state.txt}</h1>
-        </div>
-        <div className="container1">
-        <input className="input" type="text" onChange={this.handleChange} value={this.state.input}></input>
-        <button className="button" onClick={this.handleClick}>Add</button>
-        </div>
-        <div className="container2">
-        <Output todos={this.state.todos} removeItem={this.removeItem} />
+        <div>
+          <h1 className="title">This is App</h1>
+          <input className="input" type="text" onChange={this.handleChange} value={this.state.input}></input>
+          <Button outline color="danger" onClick={this.handleClick}>Add</Button>
+          <Output todos={this.state.todos} removeItem={this.removeItem} />
         </div>
       </div>
     );
   }
 }
+
+
+
 
 export default App;
