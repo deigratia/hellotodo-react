@@ -19,7 +19,7 @@ const About = ({ match }) => {
     </ul>
 
 
-    <Route path={`${match.url}/:topicId`} component={Topic} />
+    <Route path={`${match.url}/:person`} component={Topic} />
     <Route
        exact
        path={match.url}
