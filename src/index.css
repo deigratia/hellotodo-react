@@ -1,0 +1,27 @@
+.title{
+  color: rgb(109, 68, 224);
+  margin: 10px;
+}
+
+.input{
+  border-color: rgb(109, 68, 224);
+  border-style: solid;
+  margin-top: 10px;
+  width: 15%;
+  margin: 10px;
+}
+
+.output-border{
+  margin: 10px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: rgb(109, 68, 224);
+  width: 15%;
+  height: 200px;
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
